@@ -19,7 +19,7 @@ This repository contains a front-end clone of the Razorpay website, created usin
 
 ## Demo
 
-https://kareen-razorpay-clone.netlify.app/
+[https://kareen-razorpay-clone.netlify.app/](https://kareen-ujj-razorpay-clone.netlify.app/)
 
 ## Installation and Usage
 
