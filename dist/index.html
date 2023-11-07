@@ -11,7 +11,7 @@
       type="image/x-icon"
     />
     <script src="https://unpkg.com/feather-icons"></script>
-    <link rel="stylesheet" href="/main.css" />
+    
     <title>RazorPay Clone</title>
     <style>
       .core-features-class {
@@ -20,7 +20,16 @@
         padding-bottom: 12rem;
       }
       .companiesList-class {
-        animation: 10s infinite linear moveImage;
+        -webkit-animation: 10s infinite linear moveImage;
+                animation: 10s infinite linear moveImage;
+      }
+      @-webkit-keyframes moveImage {
+        0% {
+          top: 0;
+        }
+        100% {
+          top: -50%;
+        }
       }
       @keyframes moveImage {
         0% {
@@ -31,6 +40,7 @@
         }
       }
     </style>
+    <link rel="stylesheet" href="/assets/index-d5073a75.css">
   </head>
   <body>
     <div class="overflow-x-hidden relative w-full">
@@ -83,7 +93,7 @@
           class="relative w-10/12 md:w-11/12 max-w-[1080px] mx-auto flex items-center justify-between"
         >
           <a href="#" class="cursor-pointer py-7 pr-7">
-            <img src="/assets/logo.svg" width="125px" height="30px" alt="" />
+            <img src="/assets/logo-803a4a65.svg" width="125px" height="30px" alt="" />
           </a>
 
           <ul class="flex space-x-6">
@@ -151,7 +161,7 @@
 
           <div class="flex items-center space-x-6">
             <img
-              src="/assets/india-flag.svg"
+              src="/assets/india-flag-62cf945b.svg"
               class="hidden lg:block"
               width="28px"
               height="20px"
@@ -235,7 +245,7 @@
 
           <!-- hs-right -->
           <img
-            src="/assets/hero-illustration.jpg"
+            src="/assets/hero-illustration-783a8736.jpg"
             class="w-full max-w-[680px]"
             alt=""
           />
@@ -243,14 +253,14 @@
 
         <!-- hs-Bottom / shape -->
         <div class="absolute left-0 right-0 w-[103%]">
-          <img src="/assets/hero-shape.svg" class="w-full object-fill" alt="" />
+          <img src="/assets/hero-shape-55e07e29.svg" class="w-full object-fill" alt="" />
         </div>
       </section>
 
       <!-- Feature Section-1  -->
       <section class="relative mt-[190px] overflow-hidden">
         <img
-          src="/assets/feature-section1-dottedrows.png"
+          src="data:image/png;base64,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"
           alt=""
           loading="lazy"
           width="233"
@@ -259,7 +269,7 @@
         />
 
         <img
-          src="/assets/feature-section1-dottedrows.png"
+          src="data:image/png;base64,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"
           alt=""
           loading="lazy"
           width="233"
@@ -360,7 +370,7 @@
               </div>
             </div>
             <img
-              src="/assets/payment-suite.png"
+              src="/assets/payment-suite-f883499d.png"
               class="hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:block absolute right-0 bottom-0"
               alt=""
             />
@@ -373,7 +383,7 @@
             <!-- box-1 -->
             <div class="w-full min-h-[15rem] relative cursor-pointer group">
               <img
-                src="/assets/payment-link-icon.svg"
+                src="/assets/payment-link-icon-68c91ae5.svg"
                 class="bg-lightBlue absolute right-3 group-hover:bg-lightBlue300 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200"
                 alt=""
               />
@@ -433,7 +443,7 @@
 
                 <!-- blue wave -->
                 <img
-                  src="/assets/features-wave.svg"
+                  src="/assets/features-wave-06991790.svg"
                   width="25%"
                   class="absolute invisible right-0 bottom-4 group-hover:visible transition-all duration-200"
                   alt=""
@@ -444,7 +454,7 @@
             <!-- box-2 -->
             <div class="w-full min-h-[15rem] relative cursor-pointer group">
               <img
-                src="/assets/payment-pages-icon.svg"
+                src="/assets/payment-pages-icon-fc44ea1e.svg"
                 class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 group-hover:bg-lightBlue300"
                 alt=""
               />
@@ -504,7 +514,7 @@
 
                 <!-- blue wave -->
                 <img
-                  src="/assets/features-wave.svg"
+                  src="/assets/features-wave-06991790.svg"
                   width="25%"
                   class="absolute invisible right-0 bottom-4 group-hover:visible transition-all duration-200"
                   alt=""
@@ -514,7 +524,7 @@
             <!-- box-3 -->
             <div class="w-full min-h-[15rem] relative cursor-pointer group">
               <img
-                src="/assets/payment-button.svg"
+                src="/assets/payment-button-f0af1bfb.svg"
                 class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 group-hover:bg-lightBlue300"
                 alt=""
               />
@@ -574,7 +584,7 @@
 
                 <!-- blue wave -->
                 <img
-                  src="/assets/features-wave.svg"
+                  src="/assets/features-wave-06991790.svg"
                   width="25%"
                   class="absolute invisible right-0 bottom-4 group-hover:visible transition-all duration-200"
                   alt=""
@@ -585,7 +595,7 @@
             <!-- box-4 -->
             <div class="w-full min-h-[15rem] relative cursor-pointer group">
               <img
-                src="/assets/subscriptions-icon.svg"
+                src="/assets/subscriptions-icon-fe8aaffb.svg"
                 class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 group-hover:bg-lightBlue300"
                 alt=""
               />
@@ -645,7 +655,7 @@
 
                 <!-- blue wave -->
                 <img
-                  src="/assets/features-wave.svg"
+                  src="/assets/features-wave-06991790.svg"
                   width="25%"
                   class="absolute invisible right-0 bottom-4 group-hover:visible transition-all duration-200"
                   alt=""
@@ -655,7 +665,7 @@
             <!-- box-5 -->
             <div class="w-full min-h-[15rem] relative cursor-pointer group">
               <img
-                src="/assets/route-icon.svg"
+                src="/assets/route-icon-eb5cf08e.svg"
                 class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 group-hover:bg-lightBlue300"
                 alt=""
               />
@@ -715,7 +725,7 @@
 
                 <!-- blue wave -->
                 <img
-                  src="/assets/features-wave.svg"
+                  src="/assets/features-wave-06991790.svg"
                   width="25%"
                   class="absolute invisible right-0 bottom-4 group-hover:visible transition-all duration-200"
                   alt=""
@@ -725,7 +735,7 @@
             <!-- box-6 -->
             <div class="w-full min-h-[15rem] relative cursor-pointer group">
               <img
-                src="/assets/smart-collect-icon.svg"
+                src="/assets/smart-collect-icon-9dab0826.svg"
                 class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 group-hover:bg-lightBlue300"
                 alt=""
               />
@@ -785,7 +795,7 @@
 
                 <!-- blue wave -->
                 <img
-                  src="/assets/features-wave.svg"
+                  src="/assets/features-wave-06991790.svg"
                   width="25%"
                   class="absolute invisible right-0 bottom-4 group-hover:visible transition-all duration-200"
                   alt=""
@@ -811,13 +821,13 @@
           <!-- main-box-feature-2 -->
           <div class="w-full flex relative min-h[440px] flex-col mt-20">
             <img
-              src="/assets/x-flame-1.png"
+              src="/assets/x-flame-1-12c499a3.png"
               class="absolute -top-[142px] -left-[140px] w-[200px]"
               loading="lazy"
               alt=""
             />
             <img
-              src="/assets/x-flame-2.png"
+              src="/assets/x-flame-2-9092ee28.png"
               class="absolute top-[150px] -right-[180px] w-[200px]"
               loading="lazy"
               alt=""
@@ -836,7 +846,7 @@
                 >
                   Manage your company’s finances with
                   <img
-                    src="/assets/razorpayX.svg"
+                    src="/assets/razorpayX-dbf3ba53.svg"
                     width="168px"
                     height="32px"
                     class="inline"
@@ -914,7 +924,7 @@
 
               <!-- background-image -->
               <img
-                src="/assets/buisness-banking.png"
+                src="/assets/buisness-banking-f8dca509.png"
                 class="hidden md:max-w-[400px] md:block lg:block lg:max-w-[600px] absolute right-0 bottom-0 z-4"
                 alt=""
               />
@@ -930,7 +940,7 @@
               >
                 <!-- box icon -->
                 <img
-                  src="/assets/current-icon.svg"
+                  src="/assets/current-icon-0df323eb.svg"
                   class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[80] group-hover:bg-blue-800 featureCardIcon transition-all duration-200"
                 />
                 <!-- box shape -->
@@ -984,7 +994,7 @@
                   </div>
                   <!-- blue wave -->
                   <img
-                    src="/assets/features2-wave.svg"
+                    src="/assets/features2-wave-bb06068d.svg"
                     width="29%"
                     class="absolute invisible right-0 bottom-4 group-hover:visible transition-all duration-200"
                     alt=""
@@ -997,7 +1007,7 @@
               >
                 <!-- box icon -->
                 <img
-                  src="/assets/capital-credit-icon.svg"
+                  src="/assets/capital-credit-icon-bf81bc54.svg"
                   class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[80] group-hover:bg-blue-800 featureCardIcon transition-all duration-200"
                 />
                 <!-- box shape -->
@@ -1051,7 +1061,7 @@
                   </div>
                   <!-- blue wave -->
                   <img
-                    src="/assets/features2-wave.svg"
+                    src="/assets/features2-wave-bb06068d.svg"
                     width="29%"
                     class="absolute invisible right-0 bottom-4 group-hover:visible transition-all duration-200"
                     alt=""
@@ -1064,7 +1074,7 @@
               >
                 <!-- box icon -->
                 <img
-                  src="/assets/payouts-icon.svg"
+                  src="/assets/payouts-icon-9807a999.svg"
                   class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[80] group-hover:bg-blue-800 featureCardIcon transition-all duration-200"
                 />
                 <!-- box shape -->
@@ -1118,7 +1128,7 @@
                   </div>
                   <!-- blue wave -->
                   <img
-                    src="/assets/features2-wave.svg"
+                    src="/assets/features2-wave-bb06068d.svg"
                     width="29%"
                     class="absolute invisible right-0 bottom-4 group-hover:visible transition-all duration-200"
                     alt=""
@@ -1165,13 +1175,13 @@
       <section class="relative">
         <div class="relative w-11/12 md:w-11/12 max-w-[1080px] mx-auto pt-4">
           <img
-            src="/assets/feature-section1-dottedrows.png"
+            src="data:image/png;base64,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"
             class="absolute w-[233px] left-[300px] -top-[6rem] -z-10"
             loading="lazy"
             alt=""
           />
           <img
-            src="/assets/feature-section1-dottedrows.png"
+            src="data:image/png;base64,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"
             class="absolute w-[233px] -right-[3.5rem] -top-[6rem] -z-10"
             loading="lazy"
             alt=""
@@ -1195,7 +1205,7 @@
             <div
               class="p-10 bg-[url(/images/instant-settlement-bg.svg)] w-full max-h-[300px] drop-shadow-lg cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 hover:bg-[url(/images/instant-settlement-bghover.svg)] bg-white"
             >
-              <img src="/assets/razorpayXicon.svg" alt="" class="w-10 h-10" />
+              <img src="/assets/razorpayXicon-3345804c.svg" alt="" class="w-10 h-10" />
               <h3 class="font-mullish text-lg font-bold pt-4">
                 Corporate Cards
               </h3>
@@ -1219,7 +1229,7 @@
             <div
               class="p-10 bg-[url(/images/upi-autopay-bg.svg)] w-full max-h-[300px] cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 drop-shadow-lg hover:bg-[url(/images/upi-autopay-hoverbg.svg)] bg-white"
             >
-              <img src="/assets/magic-checkout.svg" alt="" class="w-10 h-10" />
+              <img src="/assets/magic-checkout-a61eda6c.svg" alt="" class="w-10 h-10" />
               <h3 class="font-mullish text-lg font-bold pt-4">UPI AutoPay</h3>
               <p class="font-mullish py-3 text-grayText leading-normal">
                 Aloow ustomers to set up recurring paymenst using UPI Apps.
@@ -1240,7 +1250,7 @@
             <div
               class="p-10 bg-[url(/images/instant-settlement-bg.svg)] w-full max-h-[300px] drop-shadow-lg cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 hover:bg-[url(/images/instant-settlement-bghover.svg)] bg-white"
             >
-              <img src="/assets/razorpayXicon.svg" alt="" class="w-10 h-10" />
+              <img src="/assets/razorpayXicon-3345804c.svg" alt="" class="w-10 h-10" />
               <h3 class="font-mullish text-lg font-bold pt-4">
                 Corporate Cards
               </h3>
@@ -1264,7 +1274,7 @@
             <div
               class="p-10 drop-shadow-lg bg-[url(/images/instant-settlement-bg.svg)] w-full max-h-[300px] cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 hover:bg-[url(/images/instant-settlement-bghover.svg)] bg-white"
             >
-              <img src="/assets/razorpayXicon.svg" alt="" class="w-10 h-10" />
+              <img src="/assets/razorpayXicon-3345804c.svg" alt="" class="w-10 h-10" />
               <h3 class="font-mullish text-lg font-bold pt-4">
                 Payment button
               </h3>
@@ -1288,7 +1298,7 @@
             <div
               class="p-10 bg-[url(/images/instant-settlement-bg.svg)] w-full max-h-[300px] cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 drop-shadow-lg hover:bg-[url(/images/instant-settlement-bghover.svg)] bg-white"
             >
-              <img src="/assets/razorpayXicon.svg" alt="" class="w-10 h-10" />
+              <img src="/assets/razorpayXicon-3345804c.svg" alt="" class="w-10 h-10" />
               <h3 class="font-mullish text-lg font-bold pt-4">
                 Corporate Cards
               </h3>
@@ -1334,7 +1344,7 @@
           >
             <!-- box-1 -->
             <div>
-              <img src="/assets/instant-activation-icon.svg" alt="" />
+              <img src="/assets/instant-activation-icon-5dc1b16b.svg" alt="" />
               <h3 class="font-mullish text-white text-lg font-bold my-4">
                 Instant Activation
               </h3>
@@ -1345,7 +1355,7 @@
             </div>
             <!-- box-2 -->
             <div>
-              <img src="/assets/easy-integration.svg" alt="" />
+              <img src="/assets/easy-integration-385f4c4d.svg" alt="" />
               <h3 class="font-mullish text-white text-lg font-bold my-4">
                 Easy Integration
               </h3>
@@ -1356,7 +1366,7 @@
             </div>
             <!-- box-3 -->
             <div>
-              <img src="/assets/api-driven-icon.svg" alt="" />
+              <img src="/assets/api-driven-icon-f4b24f36.svg" alt="" />
               <h3 class="font-mullish text-white text-lg font-bold my-4">
                 API Driven
               </h3>
@@ -1367,7 +1377,7 @@
             </div>
             <!-- box-4 -->
             <div>
-              <img src="/assets/payment-modes.svg" alt="" />
+              <img src="/assets/payment-modes-746c757f.svg" alt="" />
               <h3 class="font-mullish text-white text-lg font-bold my-4">
                 100+ payment modes
               </h3>
@@ -1378,7 +1388,7 @@
             </div>
             <!-- box-5 -->
             <div>
-              <img src="/assets/simple-pricing.svg" alt="" />
+              <img src="/assets/simple-pricing-ef5880b2.svg" alt="" />
               <h3 class="font-mullish text-white text-lg font-bold my-4">
                 Simple Pricing
               </h3>
@@ -1389,7 +1399,7 @@
             </div>
             <!-- box-6 -->
             <div>
-              <img src="/assets/instant-activation-icon.svg" alt="" />
+              <img src="/assets/instant-activation-icon-5dc1b16b.svg" alt="" />
               <h3 class="font-mullish text-white text-lg font-bold my-4">
                 Instant Activation
               </h3>
@@ -1400,7 +1410,7 @@
             </div>
             <!-- box-7 -->
             <div>
-              <img src="/assets/dashboard-reporting-icon.svg" alt="" />
+              <img src="/assets/dashboard-reporting-icon-9dc031ab.svg" alt="" />
               <h3 class="font-mullish text-white text-lg font-bold my-4">
                 Dashboard Reporting
               </h3>
@@ -1411,7 +1421,7 @@
             </div>
             <!-- box-8 -->
             <div>
-              <img src="/assets/secure-icon.svg" alt="" />
+              <img src="/assets/secure-icon-1eb94f5d.svg" alt="" />
               <h3 class="font-mullish text-white text-lg font-bold my-4">
                 Secure
               </h3>
@@ -1462,7 +1472,7 @@
               class="absolute w-full h-[150px] bottom-0 z-50"
             ></div>
             <img
-              src="/assets/comanies.png"
+              src="/assets/comanies-f772fc25.png"
               class="absolute h-auto object-cover companiesList-class"
               alt=""
             />
@@ -1474,7 +1484,7 @@
       <section class="relative">
         <div class="w-11/12 max-w-[1300px] mx-auto relative py-20">
           <img
-            src="/assets//feature-section1-dottedrows.png"
+            src="data:image/png;base64,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"
             class="absolute w-[200px] top-[8rem] left-[2rem] -z-10"
             alt=""
           />
@@ -1517,7 +1527,7 @@
             class="max-w-[960px] mx-auto flex flex-col items-center lg:flex-row my-20 lg:space-x-[10rem]"
           >
             <img
-              src="/assets/testimonial.jpg"
+              src="/assets/testimonial-5d1d25a1.jpg"
               height="320px"
               width="320px"
               class="rounded-xl object-cover h-[250px] w-[250px] md:h-[320px] md:w-[320px]"
@@ -1533,12 +1543,12 @@
                 CEO, XYZ Engineering Company
               </p>
               <img
-                src="/assets/fake-company-logo.png"
+                src="/assets/fake-company-logo-6fa447e4.png"
                 width="80"
                 height="40"
                 class="object-cover mx-auto"
               />
-              <img src="/assets/quotes.svg" class="w-[35px] h-[40px] -mb-2" />
+              <img src="/assets/quotes-38b97044.svg" class="w-[35px] h-[40px] -mb-2" />
               <p class="font-mullish text-3xl font-extralight max-w-[300px]">
                 Readymade Closed Wallet Solution For Quick Refunds
               </p>
@@ -1550,7 +1560,7 @@
             <!-- for large screens -->
             <div class="hidden lg:block max-w-[400px]">
               <img
-                src="/assets/quotes.svg"
+                src="/assets/quotes-38b97044.svg"
                 width="35px"
                 height="40px"
                 class="-mb-2"
@@ -1564,7 +1574,7 @@
               <h3 class="font-mullish font-extrabold text-2xl">Lorem Ipsum</h3>
               <p class="font-mullish font-medium">CEO, XYZ Company</p>
               <img
-                src="/assets/fake-company-logo.png"
+                src="/assets/fake-company-logo-6fa447e4.png"
                 width="80px"
                 height="40px"
                 alt=""
@@ -1643,7 +1653,7 @@
 
           <!-- right-img -->
           <img
-            src="/assets/ctaImg.svg"
+            src="/assets/ctaImg-e340b144.svg"
             alt=""
             width="240px"
             height="282px"
@@ -1663,7 +1673,7 @@
           <!-- 1st-col -->
           <div class="flex flex-col max-w-[280px] space-y-5">
             <img
-              src="/assets/logo-dark.svg"
+              src="/assets/logo-dark-e6c30c29.svg"
               width="120px"
               height="24px"
               loading="lazy"
@@ -1727,7 +1737,7 @@
             </div>
             <div class="flex items-start space-x-4">
               <img
-                src="/assets/footer-certificate-1.png"
+                src="/assets/footer-certificate-1-21d2bad2.png"
                 loading="lazy"
                 width="92"
                 height="40"
@@ -1735,7 +1745,7 @@
                 alt=""
               />
               <img
-                src="/assets/footer-certificate-2.jpg"
+                src="/assets/footer-certificate-2-4d9e1626.jpg"
                 loading="lazy"
                 width="122"
                 height="80"
@@ -2258,7 +2268,7 @@
             <div class="flex space-x-4">
               <a>
                 <img
-                  src="/assets/facebook-icon.svg"
+                  src="/assets/facebook-icon-2b65a866.svg"
                   width="24"
                   height="24"
                   loading="lazy"
@@ -2267,7 +2277,7 @@
               </a>
               <a>
                 <img
-                  src="/assets/twitter-icon.svg"
+                  src="/assets/twitter-icon-82cbd3e5.svg"
                   width="24"
                   height="24"
                   loading="lazy"
@@ -2276,7 +2286,7 @@
               </a>
               <a>
                 <img
-                  src="/assets/instagram-icon.svg"
+                  src="/assets/instagram-icon-6c2b0c16.svg"
                   width="24"
                   height="24"
                   loading="lazy"
@@ -2285,7 +2295,7 @@
               </a>
               <a>
                 <img
-                  src="/assets/github-icon.svg"
+                  src="/assets/github-icon-e2d5f6a2.svg"
                   width="24"
                   height="24"
                   loading="lazy"
@@ -2294,7 +2304,7 @@
               </a>
               <a>
                 <img
-                  src="/assets/linkedin-icon.svg"
+                  src="/assets/linkedin-icon-5471e826.svg"
                   width="24"
                   height="24"
                   loading="lazy"
