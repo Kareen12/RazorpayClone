@@ -1,8 +1,6 @@
 
 # Razorpay Clone - Front-end
 
-![Razorpay Clone](razorpay_screenshot.png)
-
 This repository contains a front-end clone of the Razorpay website, created using HTML and Tailwind CSS. The Razorpay clone replicates the user interface and design of the original website, providing a similar look and feel.
 
 ## Features
