@@ -14,8 +14,10 @@ This repository contains a front-end clone of the Razorpay website, created usin
 
 ## Screenshots
 
-![Home Page](razorpay_screenshot.png)
-![Payment Options](razorpay_Screenshot2.png)
+![Homepage](https://github.com/Kareen12/RazorpayClone/assets/105985059/d49bbde0-6a84-4371-80ad-873a048ac1fc)
+
+![payments page](https://github.com/Kareen12/RazorpayClone/assets/105985059/5dc3b85e-408b-4469-97b1-9051ab76fb1e)
+
 
 ## Demo
 
